@@ -1,0 +1,115 @@
+.android {
+    height: 400px;
+    width: 340px;
+    margin: 50%;
+    margin: 50%;
+}
+
+.main {
+    right: 30%;
+    top: 100px;
+    height: 80%;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    align: center;
+    border-radius: 0 0 25px 25px;
+}
+
+.head {
+    top: 90px;
+    right: 30%;
+    width: 80%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 220px 220px 0px 0px;
+    transition-duration: 2s;
+}
+
+.head:hover {
+    width: 60%;
+    right: 60px;
+}
+
+.main:hover {
+    width: 60%;
+    right: 60px;
+}
+
+.left_arm,
+.right_arm {
+    height: 40%;
+    width: 40%;
+    position: relative;
+}
+
+.left_leg,
+.right_leg {
+    height: 40%;
+    width: 40%;
+}
+
+.left_eye,
+.right_eye {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+div div {
+    position: relative;
+}
+
+.left_arm {
+    left: -58px;
+    background: yellow
+}
+
+.right_arm {
+    right: -58px;
+    background: yellowgreen
+}
+
+.left_leg {
+    left: 40px;
+    background: cyan
+}
+
+.right_leg {
+    right: 40px;
+    background: blue;
+}
+
+.left_eye {
+    left: 50px;
+    background: red;
+}
+
+.right_eye {
+    right: 50px;
+    background: red;
+}
+
+.left_arm,
+.right_arm,
+.left_leg,
+.right_leg {
+    width: 50px;
+    position: absolute;
+}
+
+.left_arm,
+.right_arm {
+    border-radius: 25px;
+}
+
+.left_leg,
+.right_leg {
+    border-radius: 0 0 25px 25px;
+    top: 320px;
+}
